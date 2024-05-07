@@ -16,6 +16,9 @@ setup(
         "twstock @ git+https://github.com/Paxton0222/twstock.git@ceb49b6f683ad1f6abbd53729457be8888746406"
         "urllib3==2.2.1"
     ],
+    dependency_links=[
+        "git+https://github.com/Paxton0222/twstock.git@ceb49b6f683ad1f6abbd53729457be8888746406"
+    ],
     packages=find_packages(),
     package_dir={},
     package_data={},
