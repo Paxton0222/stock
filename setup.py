@@ -7,7 +7,15 @@ setup(
     author="Paxton Li",
     author_email="paxton900222@gmail.com",
     url="git+https://github.com/Paxton0222/stock.git",
-    install_requires=[],
+    install_requires=[
+        "certifi==2024.2.2"
+        "charset-normalizer==3.3.2"
+        "idna==3.7"
+        "lxml==5.2.1"
+        "requests==2.31.0"
+        "twstock @ git+https://github.com/Paxton0222/twstock.git@ceb49b6f683ad1f6abbd53729457be8888746406"
+        "urllib3==2.2.1"
+    ],
     packages=find_packages(),
     package_dir={},
     package_data={},
