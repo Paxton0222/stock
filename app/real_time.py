@@ -1,4 +1,7 @@
+from typing import List
 import twstock
+import requests
+import json
 
 
 def stock(code: str | List[str]) -> dict:  # 盤中即時報價
