@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="stock",
-    version="@ git+https://github.com/Paxton0222/stock.git",
+    version="0.0.1",
     description="股票查詢API",
     author="Paxton Li",
     author_email="paxton900222@gmail.com",
@@ -16,7 +16,10 @@ setup(
         "twstock==1.0.0",
         "urllib3==2.2.1",
     ],
-    dependency_links=["https://github.com/Paxton0222/twstock.git#egg=twstock-1.0.0"],
+    dependency_links=[
+        "https://github.com/Paxton0222/stock.git#egg=stock-0.0.1"
+        "https://github.com/Paxton0222/twstock.git#egg=twstock-1.0.0"
+    ],
     packages=find_packages(),
     package_dir={},
     package_data={},
