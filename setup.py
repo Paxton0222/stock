@@ -16,10 +16,7 @@ setup(
         "twstock==1.0.0",
         "urllib3==2.2.1",
     ],
-    dependency_links=[
-        "https://github.com/Paxton0222/stock.git#egg=stock-0.0.1"
-        "https://github.com/Paxton0222/twstock.git#egg=twstock-1.0.0"
-    ],
+    dependency_links=["https://github.com/Paxton0222/twstock.git#egg=twstock-1.0.0"],
     packages=find_packages(),
     package_dir={},
     package_data={},
