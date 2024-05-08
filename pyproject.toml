@@ -9,11 +9,11 @@ keywords = ["taiwan", "stock", "api"]
 
 [tool.poetry.dependencies]
 python = "^3.8"  # 根据您的Python版本需求调整
-certifi = "2024.2.2"
-charset-normalizer = "3.3.2"
-idna = "3.7"
-lxml = "5.2.1"
-requests = "2.31.0"
+certifi = "^2024.2.2"
+charset-normalizer = "^3.3.2"
+idna = "^3.7"
+lxml = "^5.2.1"
+requests = "^2.31.0"
 urllib3 = "^2.2.1"
 twstock = { git = "https://github.com/Paxton0222/twstock.git" , rev="1.3.1"}
 
