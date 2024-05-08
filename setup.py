@@ -13,12 +13,10 @@ setup(
         "idna==3.7"
         "lxml==5.2.1"
         "requests==2.31.0"
-        "twstock @ git+https://github.com/Paxton0222/twstock.git@ceb49b6f683ad1f6abbd53729457be8888746406"
+        "twstock @ git+https://github.com/Paxton0222/twstock.git@branch#egg=twstock"
         "urllib3==2.2.1"
     ],
-    dependency_links=[
-        "git+https://github.com/Paxton0222/twstock.git@ceb49b6f683ad1f6abbd53729457be8888746406"
-    ],
+    dependency_links=["https://github.com/Paxton0222/twstock.git#egg=twstock"],
     packages=find_packages(),
     package_dir={},
     package_data={},
