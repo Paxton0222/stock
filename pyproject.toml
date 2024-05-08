@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stock"
+version = "0.0.1"
+description = "股票查詢API"
+authors = ["Paxton Li <paxton900222@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Paxton0222/stock"
+keywords = ["taiwan", "stock", "api"]
+
+[tool.poetry.dependencies]
+python = "^3.8"  # 根据您的Python版本需求调整
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+idna = "3.7"
+lxml = "5.2.1"
+requests = "2.31.0"
+urllib3 = "2.2.1"
+twstock = { git = "https://github.com/Paxton0222/twstock.git", rev = "1.0.0" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
