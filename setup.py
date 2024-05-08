@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="stock",
-    version="0.0.1",
+    version="@ git+https://github.com/Paxton0222/stock.git",
     description="股票查詢API",
     author="Paxton Li",
     author_email="paxton900222@gmail.com",
