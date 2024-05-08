@@ -5,6 +5,8 @@ import json
 
 
 def stock(code: str | List[str]) -> dict:  # 盤中即時報價
+    if type(code) == int:
+        code = str(code)
     stock = twstock.realtime.get(code)
 
     def transform_data(stock: dict) -> dict:
