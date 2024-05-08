@@ -8,13 +8,13 @@ setup(
     author_email="paxton900222@gmail.com",
     url="git+https://github.com/Paxton0222/stock.git",
     install_requires=[
-        "certifi==2024.2.2"
-        "charset-normalizer==3.3.2"
-        "idna==3.7"
-        "lxml==5.2.1"
-        "requests==2.31.0"
-        "twstock==1.0.0"
-        "urllib3==2.2.1"
+        "certifi==2024.2.2",
+        "charset-normalizer==3.3.2",
+        "idna==3.7",
+        "lxml==5.2.1",
+        "requests==2.31.0",
+        "twstock==1.0.0",
+        "urllib3==2.2.1",
     ],
     dependency_links=["https://github.com/Paxton0222/twstock.git#egg=twstock-1.0.0"],
     packages=find_packages(),
