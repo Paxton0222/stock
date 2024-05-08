@@ -6,7 +6,7 @@ setup(
     description="股票查詢API",
     author="Paxton Li",
     author_email="paxton900222@gmail.com",
-    url="https://github.com/Paxton0222/stock",  # 这应该是项目的 URL
+    url="https://github.com/Paxton0222/stock.git",
     install_requires=[
         "certifi==2024.2.2",
         "charset-normalizer==3.3.2",
@@ -17,6 +17,8 @@ setup(
         "urllib3==2.2.1",
     ],
     packages=find_packages(),
+    package_dir={},
+    package_data={},
     license="MIT license",
     zip_safe=False,
     keywords="taiwan stock api",
