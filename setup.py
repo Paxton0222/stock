@@ -13,7 +13,7 @@ setup(
         "idna>=3.7",
         "lxml>=5.2.1",
         "requests>=2.31.0",
-        "twstock>=1.3.1",
+        "twstock @ https://github.com/Paxton0222/twstock.git@#egg=ceb49b6f683ad1f6abbd53729457be8888746406",
         "urllib3>=2.2.1",
     ],
     packages=find_packages(),
