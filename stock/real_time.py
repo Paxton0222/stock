@@ -43,6 +43,6 @@ def stock(code: str | List[str]) -> dict:  # 盤中即時報價
 def index():  # 取得台股指數報價
     index_url = "https://mis.twse.com.tw/stock/data/mis_ohlc_TSE.txt"
     futures_index_url = "https://mis.twse.com.tw/stock/data/futures_side.txt"
-    index_req = json.loads(requests.get(index_url).text)
+    index_req = json.loads(requests.get(index_url, verify=False).text)
     futures_index_req = json.loads(requests.get(futures_index_url).text)
     return {"index": index_req, "futures_index": futures_index_req}
